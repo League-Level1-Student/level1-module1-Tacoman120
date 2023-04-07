@@ -33,7 +33,7 @@ public class Rocket implements GameControlScene {
 	 * 
 	 * With this you can run the game. use WASD to move and SPACE to fire
 	 */
-
+ 
 	/*
 	 * 3. If we want to be able to choose where to place the rocket we can create a
 	 * constructor that has parameters for x and y we can do this like any other
