@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="/Users/league/Downloads/game_tools_0.1.4.jar"/>
 	<classpathentry kind="lib" path="TokenHacker.jar"/>
 	<classpathentry kind="lib" path="core.jar"/>

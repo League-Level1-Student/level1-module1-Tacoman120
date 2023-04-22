@@ -15,17 +15,18 @@ package _03_cat;
 		* 3. Kill the Cat! 
 		
 		*/
-
+	
 
 public class Cat {
-
+	
 	private String name;
 	private int lives = 9;
 
 	Cat(String name) {
 		this.name = name;
 	}
-
+	
+	
 	void meow() {
 		System.out.println("meeeeeooooooooooowwwwwwwww!!");
 	}

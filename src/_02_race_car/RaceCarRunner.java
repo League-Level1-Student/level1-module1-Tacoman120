@@ -22,6 +22,9 @@ public class RaceCarRunner {
 		}
 		
 		// 5. Help the car move into first place.
+		while(car.getPositionInRace() > 1) {
+			car.overtake();
+		}
 		
 	}
 }
