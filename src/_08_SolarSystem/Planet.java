@@ -16,9 +16,10 @@ public class Planet {
     int diameter;
     
     public Planet(int diameterPixels, int distance, Color color, int orbitalPeriod) {
-        this.diameter = diameterPixels;
-        this.distance = distance/10;
+        this.diameter = diameterPixels/1800;
+        this.distance = distance/10000;
         this.color = color;
+        this.orbitalPeriod = orbitalPeriod;
     }
 
     public void draw(Graphics g, int numDays) {
