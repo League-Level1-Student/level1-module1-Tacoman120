@@ -262,7 +262,7 @@ player2 = new Player(100, 250, 50, 50, Color.RED.getRGB(), W, A, S, D);
         // 13. Call the displayStats method.
         displayStats();
         // 14. If gameOver is true call the endGame method.
-        if(gameOver = true) {
+        if(gameOver == true) {
         	endGame();
         }
     }
@@ -296,7 +296,7 @@ player2 = new Player(100, 250, 50, 50, Color.RED.getRGB(), W, A, S, D);
     // Challenge: Try to add more players to the game. If you need to figure out
     // additional keycodes for controls try using https://keycode.info/
 
-    static public void main(String[] args) {
+   public static void main(String[] args) {
         PApplet.main(TurfWar.class.getName());
     }
 }
